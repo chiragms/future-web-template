@@ -1,0 +1,26 @@
+{
+  "name": "future-web-template",
+  "version": "1.0.0",
+  "description": "Future Web Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiragms/future-web-template.git"
+  },
+  "author": "ChiragMS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiragms/future-web-template/issues"
+  },
+  "homepage": "https://github.com/chiragms/future-web-template#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-liquid": "^0.1.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {}
+}
