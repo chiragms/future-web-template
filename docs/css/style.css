@@ -11,6 +11,17 @@ header {
     color: #fff;
     font-weight: bold; }
 
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px 0;
+  opacity: .6; }
+
 .theme-home-slider {
   padding-top: 80px; }
   .theme-home-slider .theme-home-slider-text {
@@ -79,3 +90,8 @@ body {
   background: url(../images/bg.jpg);
   background-size: cover;
   font-family: "Montserrat", sans-serif; }
+
+a {
+  color: #cf2d76;
+  text-decoration: underline;
+  font-weight: bold; }
