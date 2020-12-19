@@ -4,10 +4,10 @@ const sass = require('gulp-sass');
 sass.compiler = require('node-sass');
 
 const source = 'src/';
-const dist = 'dist/'
+const dist = 'docs/'
 
 function copyAssets(cb) {
-  return src([`${source}**/*.js`, `${source}**/*.css`, `${source}**/*.svg`, `${source}**/*.png`, `${source}**/*.jpg`]).pipe(dest(dist));
+  return src([`${source}**/*.js`, `${source}**/*.css`, `${source}**/*.svg`, `${source}**/*.png`, `${source}**/*.jpg`, `${source}**/*.webp`]).pipe(dest(dist));
 }
 
 function compileScss(cb) {
@@ -29,7 +29,7 @@ exports.default = series(
 );
 
 exports.watch = function () {
-  watch([`${source}*.html`], compileLiquid);
-  watch([`${source}*.scss`], compileScss);
-  watch([`${source}**/*.js`, `${source}**/*.css`, `${source}**/*.svg`, `${source}**/*.png`, `${source}**/*.jpg`], copyAssets);
+  watch([`${source}**/*.html`], compileLiquid);
+  watch([`${source}**/*.scss`], compileScss);
+  watch([`${source}**/*.js`, `${source}**/*.css`, `${source}**/*.svg`, `${source}**/*.png`, `${source}**/*.jpg`, `${source}**/*.webp`], copyAssets);
 }

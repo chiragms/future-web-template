@@ -1,0 +1,8 @@
+.theme-btn {
+    &.btn-primary {
+        background: $primary;
+        border-color: $primary;
+        border-radius: 40px;
+        padding: 10px 35px;
+    }
+}
