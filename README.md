@@ -7,4 +7,4 @@ This is a template I developed using Html, Css, Js.
 Inspired from the [template](https://dribbble.com/shots/14335093-Landing-Page-UX-UI-Design) designed by Ghulam Rasool
 
 ## Demo
-[View demo here](https://future-template.chiragms.com/)
+[View demo here](https://chiragms.github.io/future-web-template/)
